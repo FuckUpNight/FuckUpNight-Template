@@ -2,7 +2,8 @@
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
-//
+// FuckUp Night Settings
+$padding : 1em;
 
 // Table of Contents
 // Foundation Settings
@@ -95,7 +96,8 @@ $font-family-sans-serif: "Ubuntu", Arial, sans-serif;
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
 
-// $white       : #FFFFFF;
+$bg-grau     : #e1e1e1;
+$white       : #FFFFFF;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -124,7 +126,7 @@ $font-family-sans-serif: "Ubuntu", Arial, sans-serif;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-// $body-bg: $white;
+$body-bg: $bg-grau;
 // $body-font-color: $jet;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
