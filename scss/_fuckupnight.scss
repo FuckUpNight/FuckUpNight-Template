@@ -1,4 +1,3 @@
-
 .row {
   max-width: 100%;
 }
@@ -26,4 +25,12 @@
   .termine, .partner{
     margin-bottom: 2*$padding;
   }
+}
+
+#logo span {
+  position: absolute;
+  bottom: 12%;
+  left: 15%;
+  color: black;
+  width: 47.5%
 }
