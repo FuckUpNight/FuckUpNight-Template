@@ -100,23 +100,23 @@ $font-family-sans-serif: "Ubuntu", Arial, sans-serif;
 $fuckupred: #cf1335;
 $white       : #FFFFFF;
 $bg-grau     : #e1e1e1;
-// $ghost       : #FAFAFA;
-// $snow        : #F9F9F9;
-// $vapor       : #F6F6F6;
-// $white-smoke : #F5F5F5;
-// $silver      : #EFEFEF;
-// $smoke       : #EEEEEE;
-// $gainsboro   : #DDDDDD;
-// $iron        : #CCCCCC;
-// $base        : #AAAAAA;
-// $aluminum    : #999999;
-// $jumbo       : #888888;
-// $monsoon     : #777777;
-// $steel       : #666666;
-// $charcoal    : #555555;
-// $tuatara     : #444444;
-// $oil         : #333333;
-// $jet         : #222222;
+$ghost       : #FAFAFA;
+$snow        : #F9F9F9;
+$vapor       : #F6F6F6;
+$white-smoke : #F5F5F5;
+$silver      : #EFEFEF;
+$smoke       : #EEEEEE;
+$gainsboro   : #DDDDDD;
+$iron        : #CCCCCC;
+$base        : #AAAAAA;
+$aluminum    : #999999;
+$jumbo       : #888888;
+$monsoon     : #777777;
+$steel       : #666666;
+$charcoal    : #555555;
+$tuatara     : #444444;
+$oil         : #333333;
+$jet         : #222222;
 $black       : #000000;
 
 // We use these as default colors throughout
@@ -1379,7 +1379,7 @@ $topbar-bg: $topbar-bg-color;
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: $white;
 // $topbar-dropdown-link-color: $white;
-$topbar-dropdown-link-bg: $white;
+$topbar-dropdown-link-bg: $aluminum;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: $white;
@@ -1387,7 +1387,7 @@ $topbar-dropdown-link-bg: $white;
 
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $fuckupred;
-$topbar-link-color-hover: $fuckupred;
+$topbar-link-color-hover: $aluminum;
 $topbar-link-color-active: $black;
 $topbar-link-color-active-hover: $black;
 // $topbar-link-weight: $font-weight-normal;

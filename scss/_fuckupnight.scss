@@ -34,3 +34,12 @@
   color: black;
   width: 47.5%
 }
+
+@media #{$medium-up} {
+  .expanded-item {
+    border-right: thin solid $fuckupred;
+  }
+}
+
+
+img[src*=svg] { width/*\**/: 100%;}
