@@ -44,14 +44,13 @@
 img[src*=svg] { width/*\**/: 100%;}
 
 .failure-big {
-  right: 0;
   color: white;
-  width: 75%;
-  position: absolute;
+  width: 85%;
   background: $fuckupred;
   border: $fuckupred 5px solid;
   margin-top: 2em;
-  margin-right: -1em;
+  margin-right: -2em;
+  float: right;
 }
 
 .failure-small {
@@ -63,4 +62,12 @@ img[src*=svg] { width/*\**/: 100%;}
   border: $fuckupred 5px solid;
   margin-top: 1em;
   margin-left: -1em;
+}
+
+div.article h2 {
+  color: $fuckupred;
+}
+
+div.article {
+  margin-top: 1em;
 }
