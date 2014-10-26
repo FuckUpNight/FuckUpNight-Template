@@ -7,7 +7,7 @@
   box-shadow: 3px 3px 9px -7px black, -3px 3px 9px -7px black;
 
   .content-area{
-    @media #{$small-up} {
+    @media #{$medium-up} {
       padding: $padding;
     }
   }
