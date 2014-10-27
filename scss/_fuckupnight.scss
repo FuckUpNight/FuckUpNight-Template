@@ -8,13 +8,12 @@
 
   .content-area{
     @media #{$medium-up} {
-      padding: $padding;
+      padding: 0em 1em 1em 1em;
     }
   }
 }
 
 // Sidebars
-.sidebar{
   .termine{
     .termin-item{
       .date{
@@ -25,49 +24,69 @@
   .termine, .partner{
     margin-bottom: 2*$padding;
   }
-}
+  .partner{
+    .tile{
+      margin-bottom: $padding;
+      img{
+        width: 70%;
+      }
+      a{
+        color: $black;
+      }
+    }
+  }
 
-#logo span {
-  position: absolute;
-  bottom: 12%;
-  left: 15%;
-  color: black;
-  width: 47.5%
-}
-
-@media #{$medium-up} {
-  .expanded-item {
-    border-right: thin solid $fuckupred;
+#logo{
+  span {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    color: black;
+    width: 47.5%
+  }
+  a{
+    img{ max-width: 470px; }
   }
 }
 
-img[src*=svg] { width/*\**/: 100%;}
+  @media #{$medium-up} {
+    .expanded-item {
+      border-right: thin solid $fuckupred;
+    }
+  }
 
-.failure-big {
-  color: white;
-  width: 85%;
-  background: $fuckupred;
-  border: $fuckupred 5px solid;
-  margin-top: 2em;
-  margin-right: -2em;
-  float: right;
-}
+  img[src*=svg] { width/*\**/: 100%;}
 
-.failure-small {
-  right: 0;
-  color: white;
-  //width: 100% + 2em;
-  position: absolute;
-  background: $fuckupred;
-  border: $fuckupred 5px solid;
-  margin-top: 1em;
-  margin-left: -1em;
-}
+  .failure-big {
+    color: white;
+    width: 85%;
+    background: $fuckupred;
+    border: $fuckupred 5px solid;
+    margin-top: 2em;
+    margin-right: -2em;
+    float: right;
+  }
 
-div.article h2,h3,h4,h5 {
-  color: $fuckupred;
-}
+  .failure-small {
+    right: 0;
+    color: white;
+    //width: 100% + 2em;
+    position: absolute;
+    background: $fuckupred;
+    border: $fuckupred 5px solid;
+    margin-top: 1em;
+    margin-left: -1em;
+  }
 
-div.article {
-  margin-top: 1em;
+  h6{
+    font-weight: bold;
+    margin-bottom: $padding;
+  }
+
+  // Footer
+#footer{
+  margin-top: $padding/2;
+  ul{
+    float: right;
+  }
 }
