@@ -2,11 +2,16 @@
 $pages = array('index', 'impressum', 'datenschutz');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
 if (!in_array($page, $pages)) {
-     if ($page != '')
-        header("HTTP/1.1 404 Not Found");
-        $page = 'index';
-     }
-     require_once('content/' . $page . '.php');
+    if ($page != '')
+       header("HTTP/1.1 404 Not Found");
+       $page = 'index';
+    }
+    if ($page == 'index') {
+        $menuactive = true;
+    } else {
+        $menuactive = false;
+    }
+    require_once('content/' . $page . '.php');
 ?>
 
 <!doctype html>
@@ -40,8 +45,8 @@ if (!in_array($page, $pages)) {
 
                         <section class="top-bar-section">
                             <ul class="right">
-                                <li class="active hide-for-small-only expanded-item"><a href="#">Home</a></li>
-                                <li class=""><a href="impressum.html">Impressum</a></li>
+                                <li class="<?php if ($menuactive) echo 'active' ?> hide-for-small-only expanded-item"><a href="index.html">Home</a></li>
+                                <li class="<?php if (!$menuactive) echo 'active' ?>"><a href="impressum.html">Impressum</a></li>
                             </ul>
                         </section>
                     </nav>
