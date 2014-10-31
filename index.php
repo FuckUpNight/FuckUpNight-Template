@@ -1,5 +1,5 @@
 <?php
-$pages = array('index', 'impressum');
+$pages = array('index', 'impressum', 'datenschutz');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
 if (!in_array($page, $pages)) {
      if ($page != '')
@@ -93,7 +93,7 @@ if (!in_array($page, $pages)) {
 <div class="row collapse">
     <div class="small-12 medium-9 medium-push-3 large-8 large-push-2 columns end" id="footer">
         <ul class="inline-list">
-            <li><a href="#">Datenschutz</a></li>
+            <li><a href="datenschutz.html">Haftungsausschluss &amp; Datenschutz</a></li>
             <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </div>
