@@ -1,5 +1,5 @@
 <?php
-$pages = array('index', 'impressum', 'datenschutz');
+$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
 if (!in_array($page, $pages)) {
     if ($page != '')
@@ -64,11 +64,10 @@ if (!in_array($page, $pages)) {
     <div class="small-12 medium-3 medium-pull-9 large-2 large-pull-8 columns">
         <div class="termine">
             <h6>Nächste FuckUp Night:</h6>
-
             <div class="termin-item">
                 <div class="date">04.12.2014 ab 18:00 Uhr</div>
                 <div class="description">
-                    <a href="">Magdeburg | Elbtalent</a>
+                    <a href="./index.html">Magdeburg | Elbtalent</a>
                 </div>
             </div>
         </div>
@@ -91,7 +90,9 @@ if (!in_array($page, $pages)) {
         </div>
     </div>
     <div class="small-12 medium-12 large-2 columns">
-        <!-- <h6>News:</h6> -->
+        <h6>News:</h6>
+        <p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>
+        <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
     </div>
 </div>
 
