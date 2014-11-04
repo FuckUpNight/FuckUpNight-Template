@@ -1,12 +1,17 @@
 <?php
-$pages = array('index', 'impressum');
+$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
 if (!in_array($page, $pages)) {
-     if ($page != '')
-        header("HTTP/1.1 404 Not Found");
-        $page = 'index';
-     }
-     require_once('content/' . $page . '.php');
+    if ($page != '')
+       header("HTTP/1.1 404 Not Found");
+       $page = 'index';
+    }
+    if ($page == 'index') {
+        $menuactive = true;
+    } else {
+        $menuactive = false;
+    }
+    require_once('content/' . $page . '.php');
 ?>
 
 <!doctype html>
@@ -40,7 +45,7 @@ if (!in_array($page, $pages)) {
 
                         <section class="top-bar-section">
                             <ul class="right">
-                                <li class="active hide-for-small-only expanded-item"><a href="index.html">Home</a></li>
+                                <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
                                 <li class=""><a href="impressum.html">Impressum</a></li>
                             </ul>
                         </section>
@@ -59,7 +64,6 @@ if (!in_array($page, $pages)) {
     <div class="small-12 medium-3 medium-pull-9 large-2 large-pull-8 columns">
         <div class="termine">
             <h6>Nächste FuckUp Night:</h6>
-
             <div class="termin-item">
                 <div class="date">04.12.2014 ab 18:00 Uhr</div>
                 <div class="description">
@@ -86,14 +90,16 @@ if (!in_array($page, $pages)) {
         </div>
     </div>
     <div class="small-12 medium-12 large-2 columns">
-        <!-- <h6>News:</h6> -->
+        <h6>News:</h6>
+        <p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>
+        <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
     </div>
 </div>
 
 <div class="row collapse">
     <div class="small-12 medium-9 medium-push-3 large-8 large-push-2 columns end" id="footer">
         <ul class="inline-list">
-            <li><a href="#">Datenschutz</a></li>
+            <li><a href="datenschutz.html">Haftungsausschluss &amp; Datenschutz</a></li>
             <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </div>
