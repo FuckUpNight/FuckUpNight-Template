@@ -40,7 +40,7 @@ if (!in_array($page, $pages)) {
 
                         <section class="top-bar-section">
                             <ul class="right">
-                                <li class="active hide-for-small-only expanded-item"><a href="#">Home</a></li>
+                                <li class="active hide-for-small-only expanded-item"><a href="index.html">Home</a></li>
                                 <li class=""><a href="impressum.html">Impressum</a></li>
                             </ul>
                         </section>
@@ -63,7 +63,7 @@ if (!in_array($page, $pages)) {
             <div class="termin-item">
                 <div class="date">04.12.2014 ab 18:00 Uhr</div>
                 <div class="description">
-                    <a href="">Magdeburg | Elbtalent</a>
+                    <a href="https://www.facebook.com/events/742217125852954/" target="_blank">Magdeburg | Elbtalent</a>
                 </div>
             </div>
         </div>
