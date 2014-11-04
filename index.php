@@ -46,7 +46,8 @@ if (!in_array($page, $pages)) {
                         <section class="top-bar-section">
                             <ul class="right">
                                 <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
-                                <li class=""><a href="impressum.html">Impressum</a></li>
+                                <li class="expanded-item"><a href="./about.html">FuckUp Night?</a></li>
+                                <li class=""><a href="./procedure.html">Ablauf</a></li>
                             </ul>
                         </section>
                     </nav>
@@ -91,9 +92,7 @@ if (!in_array($page, $pages)) {
     </div>
     <div class="small-12 medium-12 large-2 columns">
         <h6>News:</h6>
-        <p><a href="./about.html">Was ist eine FuckUp Night?</a></p>
-        <p><a href="./procedure.html">Wie eine FuckUp Night abläuft</a></p>
-        <p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>
+        <!--<p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>-->
         <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
     </div>
 </div>
