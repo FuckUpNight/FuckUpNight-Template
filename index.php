@@ -76,7 +76,7 @@ if (!in_array($page, $pages)) {
             <h6>Initiatoren:</h6>
 
             <div class="tile">
-                <a href="http://muensmedia.de/">
+                <a href="http://muensmedia.de/" target="_blank">
                     <img src="images/muensmedia.svg" alt="MÜNSMEDIA GbR" />
                 </a>
             </div>
@@ -87,6 +87,12 @@ if (!in_array($page, $pages)) {
         </div>
         <div class="partner">
             <h6>Unterstützer:</h6>
+
+            <div class="tile">
+                <a href="http://www.elbtalent.de/" target="_blank">
+                    <img src="images/elbtalent.png" alt="Elbtalent" />
+                </a>
+            </div>
         </div>
     </div>
     <div class="small-12 medium-12 large-2 columns">
