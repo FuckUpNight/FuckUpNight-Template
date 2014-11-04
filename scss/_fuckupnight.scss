@@ -22,7 +22,7 @@
     }
   }
   .termine, .partner{
-    margin-bottom: 2*$padding;
+    margin-bottom: 3*$padding;
   }
   .partner{
     .tile{
@@ -81,6 +81,11 @@
   h6{
     font-weight: bold;
     margin-bottom: $padding;
+  }
+
+  span.copy{
+    display: inline-block;
+    font-size: 0.8em;
   }
 
   // Footer
