@@ -92,6 +92,7 @@ if (!in_array($page, $pages)) {
     <div class="small-12 medium-12 large-2 columns">
         <h6>News:</h6>
         <p><a href="./about.html">Was ist eine FuckUp Night?</a></p>
+        <p><a href="./procedure.html">Wie eine FuckUp Night abläuft</a></p>
         <p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>
         <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
     </div>
