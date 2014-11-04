@@ -83,6 +83,11 @@
     margin-bottom: $padding;
   }
 
+  span.copy{
+    display: inline-block;
+    font-size: 0.8em;
+  }
+
   // Footer
 #footer{
   margin-top: $padding/2;
