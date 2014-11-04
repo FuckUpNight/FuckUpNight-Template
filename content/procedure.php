@@ -9,7 +9,7 @@ $content = '
     <h2>Wie eine FuckUp Night abläuft</h2>
     <p>Du wurdest mal so richtig gefickt?<br/>Beruflich oder in der Selbstständigkeit?<br/></p>
     <p>FuckUp Nights sind eine regelmäßige Eventreihe, bei der die Leute erzählen, über die man normal nur negativ spricht: Gescheiterte Unternehmer, Selbstständige, gescheiterte Visionäre. Öffentlich spricht man lieber über Menschen, die über Nacht zum Millionär wurden. Aber in Realität gehört das Scheitern zum Erfolg dazu. Beide sind untrennbar miteinander verbunden. Dabei erzählen die Referenten auf wenigen Folien auf lustige Art & Weise in maximal 10 Minuten ihre eigene Version der Geschichte und was sie daraus gelernt haben. FuckUps Nights laden dazu ein, aus den Fehlern Anderer zu lernen und neue Geschäftsideen aufzuschnappen.</p>
-    <h3>Wie läuft das ab?</h3>
+
     <p>Bei jeder FuckUp Night, tragen 3 bis 4 Fuckupreneurs vor und teilen Ihre Geschichten des Scheiterns und beantworten dabei die wichtigsten Fragen:</p>
     <ul>
         <li>Worum ging es bei der Idee?</li>
