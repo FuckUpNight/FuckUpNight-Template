@@ -7,7 +7,7 @@ $infos['keywords'] = array('Keyword1', 'keyword2');
 $content = '
 <div class="content-area">
     <p>
-        <img src="/images/intro.jpg" />
+        <img src="/images/intro.jpg" style="width: 100%;"/>
         <span class="copy small-12 text-right"><a href="https://creativecommons.org/licenses/by/2.0/">Bestimmte Rechte vorbehalten</a> von <a href="https://www.flickr.com/photos/8047705@N02/">LifeSupercharger</a></span>
     </p>
     <p>Erfunden in Mexico City ist die FuckUp Night eine Gelegenheit über Dinge zu sprechen, die nicht in unsere Gesellschaft zu passen scheinen: <strong>Niederlagen, gescheiterte Vorhaben, geplatzte Träume &amp; Pleiten!</strong> Nur wer Erfolg hat ist begehrt, so scheint es. Aber es gibt keinen Erfolg ohne Scheitern! Nur wer aus seinen Fehlern lernt, kann erfolgreich werden.</p>
