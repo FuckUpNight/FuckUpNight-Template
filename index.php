@@ -83,7 +83,7 @@ if (!in_array($page, $pages)) {
             </div>
 
             <div class="tile">
-                <a href="#">Igor Lückel</a>
+                <a href="http://igorlueckel.de/" target="_blank">Igor Lückel</a>
             </div>
         </div>
         <div class="partner">
