@@ -71,6 +71,13 @@ if (!in_array($page, $pages)) {
                     <a href="https://www.facebook.com/events/742217125852954/" target="_blank">Magdeburg | Elbtalent</a>
                 </div>
             </div>
+            <div class="termin-item">
+                <br>
+                <div class="date">08.12.2014 ab 19:00 Uhr</div>
+                <div class="description">
+                    <a href="https://www.facebook.com/events/537090309761875/" target="_blank">München | Health & Fun´s open business stage</a>
+                </div>
+            </div>
         </div>
 
         <div class="partner">
