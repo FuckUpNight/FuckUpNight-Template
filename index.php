@@ -66,16 +66,9 @@ if (!in_array($page, $pages)) {
         <div class="termine">
             <h6>Nächste FuckUp Night:</h6>
             <div class="termin-item">
-                <div class="date">04.12.2014 ab 18:00 Uhr</div>
+                <div class="date">Frühjahr 2015</div>
                 <div class="description">
-                    <a href="https://www.facebook.com/events/742217125852954/" target="_blank">Magdeburg | Elbtalent</a>
-                </div>
-            </div>
-            <div class="termin-item">
-                <br>
-                <div class="date">08.12.2014 ab 19:00 Uhr</div>
-                <div class="description">
-                    <a href="https://www.facebook.com/events/537090309761875/" target="_blank">München | Health & Fun´s open business stage</a>
+                    <a href="#">Magdeburg | Elbtalent</a>
                 </div>
             </div>
         </div>
@@ -90,7 +83,7 @@ if (!in_array($page, $pages)) {
             </div>
 
             <div class="tile">
-                <a href="http://igorlueckel.de/" target="_blank">Igor Lückel</a>
+                <a href="https://igorlueckel.de/" target="_blank">Igor Lückel</a>
             </div>
         </div>
         <div class="partner">
