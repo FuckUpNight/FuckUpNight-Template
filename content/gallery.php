@@ -53,7 +53,6 @@ $content = '
             screenfull.toggle($("#slides")[0]);
         }
     });
-    autoslide();
 </script>
 ';
 ?>
