@@ -1,5 +1,5 @@
 <?php
-$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute', 'about', 'procedure');
+$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute', 'about', 'procedure', 'gallery');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
 if (!in_array($page, $pages)) {
     if ($page != '')
@@ -66,16 +66,9 @@ if (!in_array($page, $pages)) {
         <div class="termine">
             <h6>Nächste FuckUp Night:</h6>
             <div class="termin-item">
-                <div class="date">04.12.2014 ab 18:00 Uhr</div>
+                <div class="date">Frühjahr 2015</div>
                 <div class="description">
-                    <a href="https://www.facebook.com/events/742217125852954/" target="_blank">Magdeburg | Elbtalent</a>
-                </div>
-            </div>
-            <div class="termin-item">
-                <br>
-                <div class="date">08.12.2014 ab 19:00 Uhr</div>
-                <div class="description">
-                    <a href="https://www.facebook.com/events/537090309761875/" target="_blank">München | Health & Fun´s open business stage</a>
+                    <a href="#">Magdeburg | Elbtalent</a>
                 </div>
             </div>
         </div>
@@ -90,7 +83,7 @@ if (!in_array($page, $pages)) {
             </div>
 
             <div class="tile">
-                <a href="http://igorlueckel.de/" target="_blank">Igor Lückel</a>
+                <a href="https://igorlueckel.de/" target="_blank">Igor Lückel</a>
             </div>
         </div>
         <div class="partner">
@@ -106,6 +99,7 @@ if (!in_array($page, $pages)) {
     <div class="small-12 medium-12 large-2 columns">
         <h6>News:</h6>
         <!--<p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>-->
+        <p><a href="./gallery.html">Bilder der 1. Magdeburger FuckUp Night</a></p>
         <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
     </div>
 </div>
