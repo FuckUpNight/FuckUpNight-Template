@@ -95,3 +95,30 @@
     float: right;
   }
 }
+
+a.next, a.prev, a.fullscreen {
+  color: white;
+}
+a.next {
+  right: 1em !important;
+}
+a.prev {
+  left: 1em !important;
+}
+a.fullscreen {
+  right: 1em !important;
+}
+.slides-navigation-top {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 5%;
+  width: 100%;
+}
+
+.slides-pagination a {
+  border: 2px solid white !important;
+}
+.slides-pagination a.current {
+  background: white !important;
+}

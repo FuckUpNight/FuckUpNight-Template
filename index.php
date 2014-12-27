@@ -1,5 +1,5 @@
 <?php
-$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute', 'about', 'procedure');
+$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute', 'about', 'procedure', 'gallery');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
 if (!in_array($page, $pages)) {
     if ($page != '')
