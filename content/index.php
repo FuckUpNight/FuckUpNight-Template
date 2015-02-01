@@ -7,8 +7,12 @@ $infos['keywords'] = array('Keyword1', 'keyword2');
 $content = '
 <div class="content-area">
     <p>
-        <img src="/images/intro.jpg" style="width: 100%;"/>
-        <span class="copy small-12 text-right"><a href="https://creativecommons.org/licenses/by/2.0/">Bestimmte Rechte vorbehalten</a> von <a href="https://www.flickr.com/photos/8047705@N02/">LifeSupercharger</a></span>
+        <div class="small-12 columns text-center" id="gallerySlick" style="width: 100%; margin-bottom: 0px;">
+            <img src="images/md-2014/_97A8754.jpg" alt=""/>
+            <img src="images/md-2014/_97A8763.jpg" alt=""/>
+            <img src="images/md-2014/_97A8771.jpg" alt=""/>
+        </div>
+        <span class="copy small-12 text-right">Fotograf: <a href="https://www.facebook.com/pages/Freier-Fotograf-Sebastian-Vandrey/211691432231782">Sebastian Vandrey</a></span>
     </p>
     <p>Erfunden in Mexico City ist die FuckUp Night eine Gelegenheit über Dinge zu sprechen, die nicht in unsere Gesellschaft zu passen scheinen: <strong>Niederlagen, gescheiterte Vorhaben, geplatzte Träume &amp; Pleiten!</strong> Nur wer Erfolg hat ist begehrt, so scheint es. Aber es gibt keinen Erfolg ohne Scheitern! Nur wer aus seinen Fehlern lernt, kann erfolgreich werden.</p>
     <p>Im Rahmen einer FuckUp Night stellen jeweils 3 bis 4 Unternehmer ihre persönlichen Bruchlandungen vor und bieten somit dem Publikum einen reichhaltigen Erfahrungssschatz.</p>

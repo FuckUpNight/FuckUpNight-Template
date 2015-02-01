@@ -23,6 +23,8 @@ if (!in_array($page, $pages)) {
     <meta name="description" content="<?= $infos['description']; ?>" />
     <meta name="keywords" content="<?= implode(',', $infos['keywords']); ?>" />
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
+    <link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -116,6 +118,7 @@ if (!in_array($page, $pages)) {
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+<script src="bower_components/slick.js/slick/slick.js"></script>
 <script src="js/app.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
