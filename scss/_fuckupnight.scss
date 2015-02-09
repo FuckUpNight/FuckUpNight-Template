@@ -122,3 +122,12 @@ a.fullscreen {
 .slides-pagination a.current {
   background: white !important;
 }
+
+//Gallery fix
+.visible-img img{
+  margin-left:0;
+  margin-top:0;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+}
