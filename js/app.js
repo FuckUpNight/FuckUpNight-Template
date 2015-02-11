@@ -15,3 +15,8 @@ $(document).ready(function(){
         autoplay: true
     });
 });
+
+$("#showcase-image-left").backstretch("./images/md-2014/_97A8976.jpg");
+$("#showcase-image-right").backstretch("./images/md-2014/_97A8841.jpg");
+$("#showcase-image-top").backstretch("./images/md-2014/_97A8795.jpg");
+$("#showcase-image-bottom").backstretch("./images/md-2014/_97A8914.jpg");

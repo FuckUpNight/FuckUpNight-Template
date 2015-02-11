@@ -4,6 +4,7 @@
   "private": "true",
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "slick.js": "~1.4.0"
+    "slick.js": "~1.4.0",
+    "jquery-backstretch": "~2.0.4"
   }
 }

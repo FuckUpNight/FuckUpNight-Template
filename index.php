@@ -28,39 +28,46 @@ if (!in_array($page, $pages)) {
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-<div class="row">
-    <div class="small-12 small-push-0 medium-9 medium-push-3 large-8 large-push-2 column content">
-        <div class="content-area">
-            <div class="row">
-                <div class="small-12 medium-6 columns" id="logo">
-                    <a href="index.html"><img src="images/dark.svg" class="text-center"/>
-                        <span class="text-left">md.fuckupnight.de</span></a>
-                </div>
-                <div class="small-12 medium-6 columns">
-                    <nav class="top-bar" data-topbar role="navigation">
-                        <ul class="title-area">
-                            <li class="name hide-for-medium-up">
-                                <h1><a href="index.html">Home</a></h1>
-                            </li>
-                            <li class="toggle-topbar menu-icon"><a href="#"><span>Menü</span></a></li>
-                        </ul>
-
-                        <section class="top-bar-section">
-                            <ul class="right">
-                                <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
-                                <li class="expanded-item"><a href="./about.html">FuckUp Night?</a></li>
-                                <li class=""><a href="./procedure.html">Ablauf</a></li>
-                            </ul>
-                        </section>
-                    </nav>
-                    <span class="failure-big hide-for-small-only">Let's talk about failure!</span>
+<header>
+    <div class="row">
+        <div class="small-12 large-8 large-push-2 column content">
+            <div class="content-area">
+                <div class="row">
+                    <div class="small-12 medium-6 columns" id="logo">
+                        <a href="index.html"><img src="images/dark.svg" class="text-center"/>
+                            <span class="text-left">md.fuckupnight.de</span></a>
+                    </div>
+                    <div class="small-12 medium-6 columns">
+                        <span class="failure-big hide-for-small-only">Let's talk about failure!</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- nav -->
+    <div class="row">
+        <div class="small-12 large-8 large-push-2 column content">
+            <nav class="top-bar" data-topbar role="navigation">
+                <ul class="title-area">
+                    <li class="name hide-for-medium-up">
+                        <h1><a href="index.html">Home</a></h1>
+                    </li>
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menü</span></a></li>
+                </ul>
 
-<div class="row">
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
+                        <li class="expanded-item"><a href="./about.html">FuckUp Night?</a></li>
+                        <li class=""><a href="./procedure.html">Ablauf</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!--<div class="row">
     <div class="small-12 medium-9 medium-push-3 large-8 large-push-2 columns content">
         <?php echo $content; ?>
     </div>
@@ -100,7 +107,6 @@ if (!in_array($page, $pages)) {
     </div>
     <div class="small-12 medium-12 large-2 columns">
         <h6>News:</h6>
-        <!--<p><a href="./organize.html">Eine FuckUp Night in deiner Stadt organisieren</a></p>-->
         <p><a href="./gallery.html">Bilder der 1. Magdeburger FuckUp Night</a></p>
         <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
     </div>
@@ -113,12 +119,13 @@ if (!in_array($page, $pages)) {
             <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </div>
-</div>
+</div>-->
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
 <script src="bower_components/slick.js/slick/slick.js"></script>
+<script src="bower_components/jquery-backstretch/jquery.backstretch.min.js"></script>
 <script src="js/app.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
