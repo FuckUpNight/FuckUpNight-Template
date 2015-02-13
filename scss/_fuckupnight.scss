@@ -55,9 +55,17 @@ header {
 }
 
   @media #{$medium-up} {
-    .expanded-item {
+    /*.expanded-item {
       border-right: thin solid $fuckupred;
+    }*/
+    .top-bar-section li:not(.has-form) a:not(.button) {
+      padding: 0 2rem;
     }
+
+    .top-bar-section li.active:not(.has-form) a:not(.button) {
+      padding: 0 2rem;
+    }
+
   }
 
   img[src*=svg] { width/*\**/: 100%;}

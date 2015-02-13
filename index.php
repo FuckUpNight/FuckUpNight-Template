@@ -56,7 +56,7 @@ if (!in_array($page, $pages)) {
                 </ul>
 
                 <section class="top-bar-section">
-                    <ul class="right">
+                    <ul class="">
                         <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
                         <li class="expanded-item"><a href="./about.html">FuckUp Night?</a></li>
                         <li class=""><a href="./procedure.html">Ablauf</a></li>
