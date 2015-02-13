@@ -66,10 +66,78 @@ if (!in_array($page, $pages)) {
         </div>
     </div>
 </header>
+<section>
+    <div class="row">
+        <div class="small-12 large-8 large-push-2 column content">
+            <?php echo $content; ?>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="row">
+        <div class="small-12 large-8 large-push-2 column">
+            <div class="row">
+                <div class="small-12 medium-6 columns">
+                    <div class="partner">
+                        <div class="row">
+                            <div class="small-12 medium-6 columns end">
+                                <h6>Initiatoren</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="tile small-12 medium-6 columns">
+                                <a href="http://muensmedia.de/" target="_blank">
+                                    <img src="images/muensmedia.svg" alt="MÜNSMEDIA GbR" />
+                                </a>
+                            </div>
+                            <div class="tile small-12 medium-6 columns">
+                                <a href="https://igorlueckel.de/" target="_blank">
+                                    <img src="images/igorlueckel.svg" alt="Igor Lückel" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 medium-3 columns">
+                    <div class="partner">
+                        <div class="row">
+                            <div class="small-12 column">
+                                <h6>Unterstützer</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="tile small-12 column">
+                                <a href="http://www.elbtalent.de/" target="_blank">
+                                    <img src="images/elbtalent.png" alt="Elbtalent" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 medium-3 columns">
+                    <div class="partner">
+                        <div class="row">
+                            <div class="small-12 column">
+                                <h6>Rechtliches</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 column">
+                                <p><a href="datenschutz.html">Haftungsausschluss</a><br />
+                                    <a href="datenschutz.html">Datenschutz</a><br />
+                                    <a href="impressum.html">Impressum</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!--<div class="row">
     <div class="small-12 medium-9 medium-push-3 large-8 large-push-2 columns content">
-        <?php echo $content; ?>
+
     </div>
     <div class="small-12 medium-3 medium-pull-9 large-2 large-pull-8 columns">
         <div class="termine">
@@ -79,29 +147,6 @@ if (!in_array($page, $pages)) {
                 <div class="description">
                     <a href="#">Magdeburg | Elbtalent</a>
                 </div>
-            </div>
-        </div>
-
-        <div class="partner">
-            <h6>Initiatoren:</h6>
-
-            <div class="tile">
-                <a href="http://muensmedia.de/" target="_blank">
-                    <img src="images/muensmedia.svg" alt="MÜNSMEDIA GbR" />
-                </a>
-            </div>
-
-            <div class="tile">
-                <a href="https://igorlueckel.de/" target="_blank">Igor Lückel</a>
-            </div>
-        </div>
-        <div class="partner">
-            <h6>Unterstützer:</h6>
-
-            <div class="tile">
-                <a href="http://www.elbtalent.de/" target="_blank">
-                    <img src="images/elbtalent.png" alt="Elbtalent" />
-                </a>
             </div>
         </div>
     </div>
