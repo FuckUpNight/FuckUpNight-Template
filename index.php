@@ -1,6 +1,6 @@
 <?php
 $pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute', 'about', 'procedure', 'gallery');
-$page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REDIRECT_URL']));
+$page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REQUEST_URI']));
 if (!in_array($page, $pages)) {
     if ($page != '')
        header("HTTP/1.1 404 Not Found");
