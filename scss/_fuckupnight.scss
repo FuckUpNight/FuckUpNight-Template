@@ -1,5 +1,8 @@
-.row {
-  max-width: 100%;
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0rem;
+}
+.red{
+  color: $fuckupred;
 }
 
 .content{
@@ -8,36 +11,16 @@
 
   .content-area{
     @media #{$medium-up} {
-      padding: 0em 1em 1em 1em;
+      padding: 1em 1em 2.5em 1em;
     }
   }
 }
 
-// Sidebars
-  .termine{
-    .termin-item{
-      .date{
-        font-weight: bold;
-      }
-    }
-  }
-  .termine, .partner{
-    margin-bottom: 3*$padding;
-  }
-  .partner{
-    .tile{
-      margin-bottom: $padding;
-      img{
-        width: 95%;
-      }
-      a{
-        color: $black;
-      }
-    }
-  }
 
 header {
-  margin-top:2rem;
+  @media #{$medium-up} {
+    margin-top:2rem;
+  }
 }
 
 #logo{
@@ -50,23 +33,25 @@ header {
     width: 47.5%
   }
   a{
-    img{ max-width: 470px; }
+    @media #{$medium-up} {
+      margin-left: 1rem;
+    }
+    img{ max-width: 340px; }
   }
 }
 
+.top-bar{
+  margin-top: 0.5rem;
+
   @media #{$medium-up} {
-    /*.expanded-item {
-      border-right: thin solid $fuckupred;
-    }*/
-    .top-bar-section li:not(.has-form) a:not(.button) {
-      padding: 0 2rem;
-    }
-
-    .top-bar-section li.active:not(.has-form) a:not(.button) {
-      padding: 0 2rem;
-    }
-
+      border-top: 5px solid $bg-grau;
+      border-bottom: 5px solid $bg-grau;
+      box-sizing: content-box;
+      margin-left: 1rem;
+      margin-right: 1rem;
   }
+}
+
 
   img[src*=svg] { width/*\**/: 100%;}
 
@@ -75,8 +60,8 @@ header {
     width: 85%;
     background: $fuckupred;
     border: $fuckupred 5px solid;
-    margin-top: 2em;
-    margin-right: -2em;
+    margin-top: 4em;
+    margin-right: -1em;
     float: right;
   }
 
@@ -99,13 +84,21 @@ header {
   span.copy{
     display: inline-block;
     font-size: 0.8em;
+    margin-bottom: 0.5rem;
   }
 
   // Footer
 #footer{
-  margin-top: $padding/2;
-  ul{
-    float: right;
+  margin-top: $padding;
+
+  .tile{
+    @media #{$small-only} {
+      margin-bottom: 1rem;
+      text-align: center;
+      img{
+        max-width: 80%;
+      }
+    }
   }
 }
 
@@ -152,6 +145,9 @@ a.fullscreen {
   left: 0;
   bottom: 0;
   right: 0;
+  display: table;
+  width: 100%;
+  height: 100%;
 }
 
 .fill {
@@ -159,27 +155,71 @@ a.fullscreen {
   height: 100%;
 }
 
-@media #{$medium-up} {
-  .showcase-left {
-    padding-left: 0;
-    padding-right: 0.5rem;
+.showcase{
+  background-color: $bg-grau;
+  margin: 0 !important;
+  @media #{$medium-up} {
+    margin-top: -1.313em !important;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+    border: 5px solid $bg-grau;
   }
-  .showcase-right {
-    padding-right: 0;
-    padding-left: 0.5rem;
+
+  .box{
+    height: 100%;
+    .text{
+      display: table-cell;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 150%;
+      i{
+        font-size: 9rem;
+        line-height: 100%;
+      }
+      span{
+        font-size: 1.7rem;
+        &.ort{
+          font-weight: bold;
+        }
+      }
+    }
   }
-  .showcase-container {
-    background-color: #000000;
-    opacity: 0.5;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
+}
+.showcase-left, .showcase-right{
+  color: #ffffff;
+  .backstretch{
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
   }
-  .showcase-container:hover {
-    opacity: 0.5;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
+  &:hover{
+    .backstretch{
+      opacity: 0.4;
+      transition: opacity 0.5s ease;
+    }
+  }
+}
+.showcase-container {
+  cursor: pointer;
+}
+
+  .showcase-left{
+    @media #{$medium-up} {
+    padding-right: 7px !important;
+    }
+    .box {
+      background-color: #000000 !important;
+    }
+  }
+  .showcase-right{
+    @media #{$medium-up} {
+    padding-left: 7px !important;
+    }
+    .box {
+      background-color: $fuckupred !important;
+    }
   }
 
   .two-text-columns {
@@ -190,7 +230,6 @@ a.fullscreen {
     -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
-}
 
 #gallery {
   white-space: nowrap;

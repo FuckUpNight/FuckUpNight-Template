@@ -14,9 +14,13 @@ $(document).ready(function(){
         cssEase: 'linear',
         autoplay: true
     });
+
+    $(".showcase-container").click(function(){
+       window.location = $(this).attr('rel');
+    });
 });
 
-$("#showcase-image-left").backstretch("./images/md-2014/_97A8976.jpg");
-$("#showcase-image-right").backstretch("./images/md-2014/_97A8841.jpg");
-$("#showcase-image-top").backstretch("./images/md-2014/_97A8795.jpg");
-$("#showcase-image-bottom").backstretch("./images/md-2014/_97A8914.jpg");
+$("#showcase-image-left").backstretch("./images/home/fuckup-night-magdeburg-besuchen.jpg");
+$("#showcase-image-right").backstretch("./images/home/sprecher-werden-fuckup-night-magdeburg.jpg");
+$("#showcase-image-top").backstretch("./images/home/fuckup-night-atmosphaere2.jpg");
+$("#showcase-image-bottom").backstretch("./images/home/fuckup-night-atmosphaere3.jpg");

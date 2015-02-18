@@ -209,12 +209,12 @@ $header-font-color: $fuckupred;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+ $h1-font-size: rem-calc(27);
+ $h2-font-size: rem-calc(23);
+ $h3-font-size: rem-calc(18);
+ $h4-font-size: rem-calc(17);
+ $h5-font-size: rem-calc(16);
+ $h6-font-size: rem-calc(15);
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10) !default;
@@ -1365,11 +1365,11 @@ $anchor-font-color-hover: scale-color($fuckupred, $lightness: -14%);
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: $white;
+$topbar-bg-color: $bg-grau;
 $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-// $topbar-height: 45px;
+ $topbar-height: 2.2rem;
 // $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
@@ -1386,18 +1386,18 @@ $topbar-dropdown-link-bg: $aluminum;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $fuckupred;
-$topbar-link-color-hover: $aluminum;
+$topbar-link-color: $black;
+$topbar-link-color-hover: $fuckupred;
 $topbar-link-color-active: $black;
 $topbar-link-color-active-hover: $black;
 // $topbar-link-weight: $font-weight-normal;
 $topbar-link-font-size: rem-calc(16);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
-$topbar-link-bg: $white;
+$topbar-link-bg: $topbar-bg;
 $topbar-link-bg-color-hover: $white;
-$topbar-link-bg-hover: $white;
-$topbar-link-bg-active: $white;
-$topbar-link-bg-active-hover: $white;
+$topbar-link-bg-hover: $topbar-bg;
+$topbar-link-bg-active: $topbar-bg;
+$topbar-link-bg-active-hover: $topbar-bg;
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
@@ -1429,8 +1429,8 @@ $topbar-menu-icon-color-toggled: $black;
 // $topbar-media-query: $medium-up;
 
 // Divider Styles
-// $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
-// $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
+ $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: -50%);
+ $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
 
 // Sticky Class
 // $topbar-sticky-class: ".sticky";

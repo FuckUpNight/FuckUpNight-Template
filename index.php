@@ -30,23 +30,21 @@ if (!in_array($page, $pages)) {
 <body>
 <header>
     <div class="row">
-        <div class="small-12 large-8 large-push-2 column content">
-            <div class="content-area">
+        <div class="small-12 column content">
                 <div class="row">
                     <div class="small-12 medium-6 columns" id="logo">
                         <a href="index.html"><img src="images/dark.svg" class="text-center"/>
-                            <span class="text-left">md.fuckupnight.de</span></a>
+                            <span class="text-left">Magdeburg</span></a>
                     </div>
                     <div class="small-12 medium-6 columns">
                         <span class="failure-big hide-for-small-only">Let's talk about failure!</span>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <!-- nav -->
     <div class="row">
-        <div class="small-12 large-8 large-push-2 column content">
+        <div class="small-12 column content">
             <nav class="top-bar" data-topbar role="navigation">
                 <ul class="title-area">
                     <li class="name hide-for-medium-up">
@@ -58,7 +56,9 @@ if (!in_array($page, $pages)) {
                 <section class="top-bar-section">
                     <ul class="">
                         <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
+                        <li class="divider"></li>
                         <li class="expanded-item"><a href="./about.html">FuckUp Night?</a></li>
+                        <li class="divider"></li>
                         <li class=""><a href="./procedure.html">Ablauf</a></li>
                     </ul>
                 </section>
@@ -68,14 +68,14 @@ if (!in_array($page, $pages)) {
 </header>
 <section>
     <div class="row">
-        <div class="small-12 large-8 large-push-2 column content">
+        <div class="small-12 column content">
             <?php echo $content; ?>
         </div>
     </div>
 </section>
 <footer>
-    <div class="row">
-        <div class="small-12 large-8 large-push-2 column">
+    <div class="row" id="footer">
+        <div class="small-12 column">
             <div class="row">
                 <div class="small-12 medium-6 columns">
                     <div class="partner">
@@ -85,12 +85,12 @@ if (!in_array($page, $pages)) {
                             </div>
                         </div>
                         <div class="row">
-                            <div class="tile small-12 medium-6 columns">
+                            <div class="tile small-12 medium-5 columns">
                                 <a href="http://muensmedia.de/" target="_blank">
                                     <img src="images/muensmedia.svg" alt="MÜNSMEDIA GbR" />
                                 </a>
                             </div>
-                            <div class="tile small-12 medium-6 columns">
+                            <div class="tile small-12 medium-5 medium-push-1 end columns">
                                 <a href="https://igorlueckel.de/" target="_blank">
                                     <img src="images/igorlueckel.svg" alt="Igor Lückel" />
                                 </a>
@@ -106,7 +106,7 @@ if (!in_array($page, $pages)) {
                             </div>
                         </div>
                         <div class="row">
-                            <div class="tile small-12 column">
+                            <div class="tile small-12 medium-9 column">
                                 <a href="http://www.elbtalent.de/" target="_blank">
                                     <img src="images/elbtalent.png" alt="Elbtalent" />
                                 </a>
@@ -134,37 +134,6 @@ if (!in_array($page, $pages)) {
         </div>
     </div>
 </footer>
-
-<!--<div class="row">
-    <div class="small-12 medium-9 medium-push-3 large-8 large-push-2 columns content">
-
-    </div>
-    <div class="small-12 medium-3 medium-pull-9 large-2 large-pull-8 columns">
-        <div class="termine">
-            <h6>Nächste FuckUp Night:</h6>
-            <div class="termin-item">
-                <div class="date">Frühjahr 2015</div>
-                <div class="description">
-                    <a href="#">Magdeburg | Elbtalent</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="small-12 medium-12 large-2 columns">
-        <h6>News:</h6>
-        <p><a href="./gallery.html">Bilder der 1. Magdeburger FuckUp Night</a></p>
-        <p><a href="./contribute.html">Auf einer FuckUp Night sprechen</a></p>
-    </div>
-</div>
-
-<div class="row collapse">
-    <div class="small-12 medium-9 medium-push-3 large-8 large-push-2 columns end" id="footer">
-        <ul class="inline-list">
-            <li><a href="datenschutz.html">Haftungsausschluss &amp; Datenschutz</a></li>
-            <li><a href="impressum.html">Impressum</a></li>
-        </ul>
-    </div>
-</div>-->
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
