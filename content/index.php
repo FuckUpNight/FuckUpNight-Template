@@ -59,7 +59,7 @@ $content = '
                 <li><a class="th" href="images/md-2014/_97A9034.jpg"><img src="images/md-2014/thumb/_97A9034.jpg" alt=""></a></li>
                 <li><a class="th" href="images/md-2014/_97A9055.jpg"><img src="images/md-2014/thumb/_97A9055.jpg" alt=""></a></li>
             </ul> -->
-            <span class="copy small-12 text-right">Fotograf: <a href="https://www.facebook.com/pages/Freier-Fotograf-Sebastian-Vandrey/211691432231782">Sebastian Vandrey</a></span>
+            <span class="copy small-12 text-right">Fotograf: <a href="https://www.facebook.com/pages/Freier-Fotograf-Sebastian-Vandrey/211691432231782" target="_blank">Sebastian Vandrey</a></span>
 </section>
 <section>
 <div class="two-text-columns">
