@@ -15,5 +15,5 @@ $content = '
         <li>Was hast Du daraus gelernt?</li>
         <li>Was würdest Du nun anders machen?</li>
     </ul>
-    <p>Dich erwartet ein interessiertes Publikum. Sag uns Bescheid (info@fuckupnight.de)</p>
+    <p>Dich erwartet ein interessiertes Publikum. Sag uns Bescheid (<span class="safemail">info [at] fuckupnight [dot] de</span>)</p>
 </div>';

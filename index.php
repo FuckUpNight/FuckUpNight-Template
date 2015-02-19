@@ -35,7 +35,7 @@ if (!in_array($page, $pages)) {
                             <span class="text-left">Magdeburg</span></a>
                     </div>
                     <div class="small-12 medium-6 columns">
-                        <span class="failure-big hide-for-small-only">Let's talk about failure!</span>
+                        <span class="failure-big hide-for-small-only">Let's talk about failure</span>
                     </div>
                 </div>
         </div>
@@ -128,7 +128,7 @@ if (!in_array($page, $pages)) {
                                 <p><a href="datenschutz.html">Haftungsausschluss</a><br />
                                     <a href="datenschutz.html">Datenschutz</a><br />
                                     <a href="impressum.html">Impressum</a><br />
-                                    <span class="safemail">info [at] fuckupnight [dot] de</span></p>
+                                </p>
                             </div>
                         </div>
                     </div>
