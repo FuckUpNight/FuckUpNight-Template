@@ -12,6 +12,10 @@ h1,h2,h3,h4,h5,h6{
   .content-area{
     @media #{$medium-up} {
       padding: 1em 1em 2.5em 1em;
+
+      .sideimg{
+        padding-left: 2rem;
+      }
     }
   }
 }

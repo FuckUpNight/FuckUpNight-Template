@@ -1,8 +1,8 @@
 <?php
 // Meta-Informationen
 $infos['seitentitel'] = 'Impressum';
-$infos['description'] = 'Description';
-$infos['keywords'] = array('Keyword1', 'keyword2');
+$infos['description'] = '';
+$infos['keywords'] = array();
 
 $content = '
 <div class="content-area">

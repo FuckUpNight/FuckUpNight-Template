@@ -1,5 +1,5 @@
 <?php
-$pages = array('index', 'impressum', 'datenschutz', 'organize', 'contribute', 'about', 'procedure', 'gallery');
+$pages = array('index', 'impressum', 'datenschutz', 'organize', 'sprecher-werden', 'ablauf', 'impressionen');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REQUEST_URI']));
 if (!in_array($page, $pages)) {
     if ($page != '')
@@ -76,13 +76,11 @@ if (!in_array($page, $pages)) {
                     <ul class="">
                         <li class="active hide-for-small-only"><a href="/index.html">Home</a></li>
                         <li class="divider"></li>
-                        <li class=""><a href="./about.html">FuckUp Night?</a></li>
+                        <li class=""><a href="./ablauf.html">Ablauf</a></li>
                         <li class="divider"></li>
-                        <li class=""><a href="./procedure.html">Ablauf</a></li>
+                        <li class=""><a href="./sprecher-werden.html">Sprecher werden</a></li>
                         <li class="divider"></li>
-                        <li class=""><a href="./contribute.html">Sprecher werden</a></li>
-                        <li class="divider"></li>
-                        <li class=""><a href="./gallery.html">Impressionen</a></li>
+                        <li class=""><a href="./impressionen.html">Impressionen</a></li>
                     </ul>
                 </section>
             </nav>
