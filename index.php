@@ -23,8 +23,6 @@ if (!in_array($page, $pages)) {
     <meta name="description" content="<?= $infos['description']; ?>" />
     <meta name="keywords" content="<?= implode(',', $infos['keywords']); ?>" />
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
-    <link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -55,11 +53,15 @@ if (!in_array($page, $pages)) {
 
                 <section class="top-bar-section">
                     <ul class="">
-                        <li class="active hide-for-small-only expanded-item"><a href="/index.html">Home</a></li>
+                        <li class="active hide-for-small-only"><a href="/index.html">Home</a></li>
                         <li class="divider"></li>
-                        <li class="expanded-item"><a href="./about.html">FuckUp Night?</a></li>
+                        <li class=""><a href="./about.html">FuckUp Night?</a></li>
                         <li class="divider"></li>
                         <li class=""><a href="./procedure.html">Ablauf</a></li>
+                        <li class="divider"></li>
+                        <li class=""><a href="./contribute.html">Sprecher werden</a></li>
+                        <li class="divider"></li>
+                        <li class=""><a href="./gallery.html">Impressionen</a></li>
                     </ul>
                 </section>
             </nav>
@@ -125,7 +127,8 @@ if (!in_array($page, $pages)) {
                             <div class="small-12 column">
                                 <p><a href="datenschutz.html">Haftungsausschluss</a><br />
                                     <a href="datenschutz.html">Datenschutz</a><br />
-                                    <a href="impressum.html">Impressum</a></p>
+                                    <a href="impressum.html">Impressum</a><br />
+                                    <span class="safemail">info [at] fuckupnight [dot] de</span></p>
                             </div>
                         </div>
                     </div>
@@ -138,7 +141,6 @@ if (!in_array($page, $pages)) {
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
-<script src="bower_components/slick.js/slick/slick.js"></script>
 <script src="bower_components/jquery-backstretch/jquery.backstretch.min.js"></script>
 <script src="js/app.js"></script>
 <script>

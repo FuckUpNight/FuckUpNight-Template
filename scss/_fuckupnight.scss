@@ -44,50 +44,50 @@ header {
   margin-top: 0.5rem;
 
   @media #{$medium-up} {
-      border-top: 5px solid $bg-grau;
-      border-bottom: 5px solid $bg-grau;
-      box-sizing: content-box;
-      margin-left: 1rem;
-      margin-right: 1rem;
+    border-top: 5px solid $bg-grau;
+    border-bottom: 5px solid $bg-grau;
+    box-sizing: content-box;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
 
-  img[src*=svg] { width/*\**/: 100%;}
+img[src*=svg] { width/*\**/: 100%;}
 
-  .failure-big {
-    color: white;
-    width: 85%;
-    background: $fuckupred;
-    border: $fuckupred 5px solid;
-    margin-top: 4em;
-    margin-right: -1em;
-    float: right;
-  }
+.failure-big {
+  color: white;
+  width: 85%;
+  background: $fuckupred;
+  border: $fuckupred 5px solid;
+  margin-top: 4em;
+  margin-right: -1em;
+  float: right;
+}
 
-  .failure-small {
-    right: 0;
-    color: white;
-    //width: 100% + 2em;
-    position: absolute;
-    background: $fuckupred;
-    border: $fuckupred 5px solid;
-    margin-top: 1em;
-    margin-left: -1em;
-  }
+.failure-small {
+  right: 0;
+  color: white;
+  //width: 100% + 2em;
+  position: absolute;
+  background: $fuckupred;
+  border: $fuckupred 5px solid;
+  margin-top: 1em;
+  margin-left: -1em;
+}
 
-  h6{
-    font-weight: bold;
-    margin-bottom: $padding;
-  }
+h6{
+  font-weight: bold;
+  margin-bottom: $padding;
+}
 
-  span.copy{
-    display: inline-block;
-    font-size: 0.8em;
-    margin-bottom: 0.5rem;
-  }
+span.copy{
+  display: inline-block;
+  font-size: 0.8em;
+  margin-bottom: 0.5rem;
+}
 
-  // Footer
+// Footer
 #footer{
   margin-top: $padding;
 
@@ -205,31 +205,38 @@ a.fullscreen {
   cursor: pointer;
 }
 
-  .showcase-left{
-    @media #{$medium-up} {
+.showcase-left{
+  @media #{$medium-up} {
     padding-right: 7px !important;
-    }
-    .box {
-      background-color: #000000 !important;
-    }
   }
-  .showcase-right{
-    @media #{$medium-up} {
+  .box {
+    background-color: #000000 !important;
+  }
+}
+.showcase-right{
+  @media #{$medium-up} {
     padding-left: 7px !important;
-    }
-    .box {
-      background-color: $fuckupred !important;
-    }
   }
-
-  .two-text-columns {
+  .box {
+    background-color: $fuckupred !important;
+  }
+}
+.two-text-columns {
+  @media #{$medium-up} {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    -webkit-column-gap: 2rem;
-    -moz-column-gap: 2rem;
-    column-gap: 2rem;
   }
+  @media #{$small-only} {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+}
+
 
 #gallery {
   white-space: nowrap;
