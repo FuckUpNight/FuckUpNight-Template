@@ -6,7 +6,7 @@
  URL     : http://blog.delivi.info/javascript/safemail
  Livingston Samuel <livingston@xatre.info>
  */
-;(function($) {
+(function($) {
     $.fn.safeMail = function() {
         var regex = {
             at: /(( ?)\[at\]( ?))/i,
