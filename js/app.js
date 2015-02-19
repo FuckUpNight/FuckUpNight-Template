@@ -35,6 +35,12 @@ $(document).ready(function(){
        window.location = $(this).attr('rel');
     });
     $(".safemail").safeMail();
+    if(!Modernizr.svg) {
+        $('img[src$="svg"]').attr('src', function() {
+            return $(this).attr('src').replace('.svg', '.png');
+        });
+
+    }
 });
 
 $("#showcase-image-left").backstretch("./images/home/fuckup-night-magdeburg-besuchen.jpg");
