@@ -30,7 +30,7 @@ $content = '
                 </div>
                 <div class="small-12 medium-5 columns showcase-right" data-equalizer-watch>
                     <div class="box" id="showcase-image-right">
-                        <div class="box-content showcase-container" rel="/contribute.html">
+                        <div class="box-content showcase-container" rel="/sprecher-werden.html">
                             <div class="text">
                                 <i class="fi-megaphone"></i><br>
                                 <span class="termin">Auf einer FuckUp Night</span><br>
