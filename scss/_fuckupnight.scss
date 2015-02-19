@@ -181,6 +181,9 @@ a.fullscreen {
       height: 100%;
       text-align: center;
       vertical-align: middle;
+      @media #{$small-only} {
+        padding-top: 2rem;
+      }
       line-height: 150%;
       i{
         font-size: 9rem;
