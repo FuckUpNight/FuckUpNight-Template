@@ -11,11 +11,11 @@ $content = '
     <div class="row collapse showcase" data-equalizer>
                 <div class="small-12 medium-5 columns showcase-left" data-equalizer-watch>
                     <div class="box" id="showcase-image-left">
-                        <div class="box-content showcase-container" rel="https://www.facebook.com/events/780219242068608/">
+                        <div class="box-content showcase-container" rel="">
                             <div class="text">
                                 <i class="fi-calendar"></i><br>
-                                <span class="termin">05.03.2015 18:30 Uhr</span><br>
-                                <span class="ort">Magdeburg</span>
+                                <span class="termin">Wird bald bekannt gegeben</span><br>
+                                <!--<span class="ort">Magdeburg</span>-->
                             </div>
                         </div>
                     </div>
