@@ -7,8 +7,7 @@ $infos['keywords'] = array('Impressionen', 'Bilder', 'Fotos', 'FuckUp Night', 'M
 $content = '
 <div class="content-area">
     <h1>Bilder der 2. Magdeburger FuckUp Night</h1>
-    <p>Auch bei unserer zweiten FuckUp Night im <a href="http://elbtalent.de/" target="_blank">Elbtalent</a> haben sich die Räume am 5. März 2015 M schnell gefüllt, um den interessanten
-    Vorträgen von Joerg Schnurre und Heiko Schaale zu lauschen.</p>
+    <p>Auch bei unserer zweiten FuckUp Night im <a href="http://elbtalent.de/" target="_blank">Elbtalent</a> haben sich die Räume am 5. März 2015 schnell gefüllt, um den interessanten Vorträgen von Joerg Schnurre und Heiko Schaale zu lauschen.</p>
 
     <ul class="clearing-thumbs" data-clearing>
       <li><a class="th" href="images/md-2015-1/_97A9219.jpg"><img src="images/md-2015-1/thumb/_97A9219.jpg" alt=""></a></li>
@@ -26,9 +25,7 @@ $content = '
     </ul>
 
     <h1 style="margin-top: 2rem;">Bilder der 1. Magdeburger FuckUp Night</h1>
-    <p>Gut 60 Besucherinnen und Besucher waren am 4. Dezember 2014 zur 1. Magdeburger FuckUp Night ins <a href="http://elbtalent.de/" target="_blank">Elbtalent</a> gekommen, um Geschichten von Pleiten, Pech und Pannen der SpeakerInnen zu hören.
-Einen Artikel zur Veranstaltung finden Sie auf den Seiten der <a href="http://www.kreativ-sachsen-anhalt.de/News-Detail.22.0.html?&uid=506" target="_blank">Kreativwirtschaft Sachsen-Anhalt</a>.</p>
-
+    <p>Gut 60 Besucherinnen und Besucher waren am 4. Dezember 2014 zur 1. Magdeburger FuckUp Night ins <a href="http://elbtalent.de/" target="_blank">Elbtalent</a> gekommen, um Geschichten von Pleiten, Pech und Pannen der SpeakerInnen zu hören. Einen Artikel zur Veranstaltung finden Sie auf den Seiten der <a href="http://www.kreativ-sachsen-anhalt.de/News-Detail.22.0.html?&uid=506" target="_blank">Kreativwirtschaft Sachsen-Anhalt</a>.</p>
     <ul class="clearing-thumbs" data-clearing>
       <li><a class="th" href="images/md-2014/_97A8740.jpg"><img src="images/md-2014/thumb/_97A8740.jpg" alt=""></a></li>
       <li><a class="th" href="images/md-2014/_97A8754.jpg"><img src="images/md-2014/thumb/_97A8754.jpg" alt=""></a></li>
