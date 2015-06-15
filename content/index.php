@@ -15,12 +15,7 @@ $content = '
                             <div class="text">
                                 <i class="fi-calendar"></i><br>
                                 <div>
-                                    <span class="termin">19.05.2015</span><br>
-                                    <span class="ort"><a href="https://www.facebook.com/events/1422453434741349/">FuckUp Night meets Kreativpiloten</a>, Magdeburg</span>
-                                </div>
-                                <div style="margin-top: 1.5rem">
-                                    <span class="termin">28.05.2015</span><br>
-                                    <span class="ort"><a href="http://www.mdkk.de/de/kongresse-events/thinktank-kreativwirtschaft.html" target="_blank">@ThinkTank Kreativwirtschaft</a>, Magdeburg</span>
+                                    <span class="termin">Wird bald bekannt gegeben</span><br>
                                 </div>
                             </div>
                         </div>
