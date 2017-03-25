@@ -1,5 +1,5 @@
 <?php
-$pages = array('index', 'impressum', 'datenschutz', 'organize', 'sprecher-werden', 'ablauf', 'impressionen');
+$pages = array('index', 'impressum', 'datenschutz', 'sprecher-werden', 'ablauf', 'impressionen');
 $page = str_replace(array('/', '.html'), '', strtolower($_SERVER['REQUEST_URI']));
 if (!in_array($page, $pages)) {
     if ($page != '')
